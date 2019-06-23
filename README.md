@@ -44,7 +44,7 @@ Phone: 650-880-0790
          </ul>
         </li>
       </ul>
-
+<br>
 <li>Note that DevExpress licensing restrictions will not affect appraisers and other users, who simply want to run the code for testing or use in their work.</li><br>
   
 <li style="margin:0;padding:0">Core Infrastructure code will include the Model Parsers, Domain Definitions, and other code not related to supporting a user interface. </li><br>
