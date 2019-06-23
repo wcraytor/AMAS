@@ -33,13 +33,21 @@ Phone: 650-880-0790
 
 <ol style="margin:0;padding:0">
 
-<li>The GitHub libraries will be split between Runtime Binaries and Open Source.  The Open Source libraries will be split between Core Infrastrcture and User Interace.</li></br>
+<li>The GitHub libraries will be split between Runtime Binaries and Open Source.<br>
+    <ul><br>
+      <li>Runtime Binaries will be available to appraisers and others who wish to test the code, or use it in their work.</li><br>
+      <li>Open Source libraries will be available to developers and will be split between Core Infrastrcture and User Interace. <br>
+         <ul>
+          <li>Core Infrastructure code will be available to contributing developers.  Core infrastructure code will be independent of DevExpress and other third party library requiring paid license fees.</li><br>
+          <li>DevExpress will be used for complex user interfaces in many if not most cases.  The DevExpress libraries for such code will not be uploaded due to license restrictions.  That is to say, developers will have to download  DevExpress libaries based on their own license.</li><br>
+          <li>Other User Interface code should be based on open source libraries and will be available to all developers.<br>
+         </ul>
+        </li>
+      </ul>
 
-<li>DevExpress will be used for complex user interfaces in many if not most cases. This means that developer access to any code that incorporates DevExpress libraries, will require the developer have a license for DevExpress. Core infrastructure code will be independent of DevExpress and other third party library requiring paid license fees.</li><br> 
-
-<li>The above restriction will not affect appraisers and other users, who simply want to run the code for testing or use in their work.</li><br>
+<li>Note that DevExpress licensing restrictions will not affect appraisers and other users, who simply want to run the code for testing or use in their work.</li><br>
   
-<li style="margin:0;padding:0">Consequently, code will be cleanly split between supporting infrastructure (domain, parsing, RabbitMQ messaging, ...) code and User Interface code requiring a DevExpress license. There will be separate user access for each set of libraries. </li><br>
+<li style="margin:0;padding:0">Core Infrastructure code will include the Model Parsers, Domain Definitions, and other code not related to supporting a user interface. </li><br>
   
 <li>Core code will be migrated as soon as possible (if not initially) to AspNet Core - so that it can run on Linux and MAC, as well as on Windows.</li><br>
 
