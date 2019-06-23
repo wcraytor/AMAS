@@ -49,7 +49,7 @@ Phone: 650-880-0790
   
 <li style="margin:0;padding:0">Core Infrastructure code will include the Model Parsers, Domain Definitions, and other code not related to supporting a user interface. </li><br>
   
-<li>Core code will be migrated as soon as possible (if not initially) to AspNet Core - so that it can run on Linux and MAC, as well as on Windows.</li><br>
+<li>Core code will be migrated as soon as possible (if not initially) to AspNet Core - so that it can run on Linux and Mac, as well as on Windows.</li><br>
 
 
 
