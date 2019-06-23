@@ -51,7 +51,7 @@ Phone: 650-880-0790
 
 <li>  DevExpress Asp.Net/MVC + DevExtreme for the browser interface.</li><br>
 
-<li> Migration to AspNet Core will occur in parallel.  This will allow the software to be used.</li><br>
+<li> Migration to AspNet Core will occur in parallel.  This will allow the software to be used on Linux and MAC operating systems.</li><br>
 </ol>
 
 
